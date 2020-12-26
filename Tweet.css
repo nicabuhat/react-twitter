@@ -1,0 +1,59 @@
+:root {
+    box-sizing: border-box;
+    --black: rgb(18, 18, 18);
+    --grey: rgb(118, 118, 118);
+}
+
+.tweet {
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--grey);
+}
+
+.tweet__img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.tweet__content {
+    width: 90%;
+}
+
+.tweet__nameGroup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet__nameGroup--name {
+    margin-right: 5px;
+    color: var(--black);
+}
+
+.tweet__nameGroup--handle {
+    margin-right: 5px;
+    color: var(--grey);
+}
+
+.tweet__date {
+    color: var(--grey);
+}
+
+.tweet__message {
+    display: block;
+    margin: 10px 0 15px;
+    font-size: 20px;
+}
+
+.tweet__buttonGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet__button {
+    color: var(--grey);
+    font-size: 12px;
+}
